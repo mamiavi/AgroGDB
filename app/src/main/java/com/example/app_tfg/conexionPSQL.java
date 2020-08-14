@@ -15,8 +15,7 @@ public class conexionPSQL {
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
             Class.forName("org.postgresql.Driver");
-            //CASAconexion = DriverManager.getConnection("jdbc:postgresql://192.168.0.14:5432/agroGDB", "postgres", "postgres");
-            //MAMAconexion = DriverManager.getConnection("jdbc:postgresql://192.168.43.228:5432/agroGDB", "postgres", "postgres");
+            //IP Y PUERTO
             conexion = DriverManager.getConnection("jdbc:postgresql://192.168.43.203:5432/agroGDB", "postgres", "postgres");
 
         }catch (Exception er){
