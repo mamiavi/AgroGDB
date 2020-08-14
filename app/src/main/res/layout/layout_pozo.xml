@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/Nombre" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/año" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_concesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/CódigoConcesionAdministrativa" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_profundidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="@string/Profundidadsondeo" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_diametro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="@string/Diámetrosonde" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_nivel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="@string/NivelPiezométrico" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_tarifa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/TipoTarifaElectrica" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_potencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/PotenciaContratada" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_bomba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/Tipobomba" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_caudal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/Caudalnominal" />
+
+        <EditText
+            android:id="@+id/etiqueta_pozo_altura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/AlturaManométrica" />
+
+        <CheckBox
+            android:id="@+id/checkBox_pozo_variador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Variador" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnGeorreferenciar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Georreferenciar"
+                android:text="@string/Georreferenciar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

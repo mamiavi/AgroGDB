@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">agroGDB</string>
+    <string name="botoon_perfil">PERFIL</string>
+    <string name="botoon_editar">EDITAR</string>
+    <string name="botoon_nuevo">NOU</string>
+    <string name="botoon_inventariar">INVENTARIAR</string>
+    <string name="botoon_info">INTRUCCIONS</string>
+    <string name="botoon_salir">EIXIR</string>
+    <string name="botoon_parcela">Parceles</string>
+    <string name="botoon_pozo">Pous</string>
+    <string name="botoon_balsa">Balses</string>
+    <string name="botoon_cabezales">Cabezals</string>
+    <string name="botoon_impulsiones_y_bombeos">Impulsions</string>
+    <string name="botoon_otros">Altres</string>
+    <string name="denominacion">Denominació</string>
+    <string name="direccion">Direcció</string>
+    <string name="telefono">Teléfon</string>
+    <string name="NombreCompleto">Nom Complet</string>
+    <string name="Posicion">Posició a la C.R</string>
+    <string name="Entidad_riego">Entitat de rieg</string>
+    <string name="DatosPersonales">Dades personals</string>
+    <string name="Bienvenida">Benvingut</string>
+    <string name="Terminar">FINALITZAR</string>
+    <string name="Añadir">AFEGIR</string>
+    <string name="Nombre">Nombre</string>
+    <string name="año">Any</string>
+    <string name="CódigoConcesionAdministrativa">Codi concessió administrativa</string>
+    <string name="Profundidadsondeo">Profunditat sondeig (m)</string>
+    <string name="Diámetrosonde">Diàmetre sondeig (m)</string>
+    <string name="NivelPiezométrico">Nivell piezomètric (m)</string>
+    <string name="TipoTarifaElectrica">Tipus de tarifa elèctrica</string>
+    <string name="PotenciaContratada">Potència contractada (kW)</string>
+    <string name="Tipobomba">Tipus de bomba</string>
+    <string name="Caudalnominal">Cabal nominal (l/s)</string>
+    <string name="Variador">Variador</string>
+    <string name="Capacidad">Capacitat útil (m3)</string>
+    <string name="Estado">Estat</string>
+    <string name="Materiales">Materials</string>
+    <string name="Función">Funció</string>
+    <string name="Filtraciones">Filtracions</string>
+    <string name="Problemas">Problemes de funcionament</string>
+    <string name="Ubicacion">Ubicació</string>
+    <string name="AñadirUbicacion">Obtindre coordenades</string>
+    <string name="Dimensiones">Dimensions</string>
+    <string name="AlturaManométrica">Altura manomètrica (mca)</string>
+    <string name="TipoCultivo">Tipus de cultiu</string>
+    <string name="Si">Sí</string>
+    <string name="No">No</string>
+    <string name="TipoConstru">Tipus de construcció</string>
+    <string name="Descripcion">Descripció</string>
+    <string name="SistemaRiego">Sistema de reg</string>
+    <string name="Georreferenciar">Georeferenciar</string>
+    <string name="Instrucciones">La present aplicació ha estat realitzada per l"'estudiant d'Enginyeria Geomàtica Manuel Miñambres Vidal amb motiu del seu projecte de fi de carrera. \n\n
+INSTRUCCIONS \n \n
+- Haurà activar la ubicació de la seva dispositiu mòbil \n\n
+- Tot seguit haurà d'omplir les seves dades personals accedint a l\'apartat Perfil \n\n
+- Un cop realitzat l'anterior ja podrà començar a inventariar \n\n
+- En cas d'inventariar elements puntuals, n'hi haurà prou amb afegir un únic punt i seguit finalitzar \n\n
+- En cas d'inventariar un polígon, és recomanable afegir un punt a cada cantonada, i en cas d'existir curvatures, haura afegir un punt cada dos passos \n\n</string>
+
+
+
+
+</resources>

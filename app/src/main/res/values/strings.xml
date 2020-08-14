@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">agroGDB</string>
+    <string name="botoon_perfil">PERFIL</string>
+    <string name="botoon_editar">EDITAR</string>
+    <string name="botoon_nuevo">NUEVO</string>
+    <string name="botoon_inventariar">INVENTARIAR</string>
+    <string name="botoon_info">INSTRUCCIONES</string>
+    <string name="botoon_parcela">Parcelas</string>
+    <string name="botoon_pozo">Pozo</string>
+    <string name="botoon_balsa">Balsa</string>
+    <string name="botoon_cabezales">Cabezales</string>
+    <string name="botoon_impulsiones_y_bombeos">Impulsiones</string>
+    <string name="botoon_otros">Otros</string>
+    <string name="botoon_salir">SALIR</string>
+    <string name="denominacion">Denominación</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Teléfono</string>
+    <string name="NombreCompleto">Nombre Completo</string>
+    <string name="Posicion">Posición en la C.R</string>
+    <string name="Entidad_riego">Entidad de riego</string>
+    <string name="DatosPersonales">Datos personales</string>
+    <string name="Bienvenida">Bienvenido</string>
+    <string name="Terminar">FINALIZAR</string>
+    <string name="Añadir">AÑADIR</string>
+    <string name="Nombre">Nombre</string>
+    <string name="año">Año</string>
+    <string name="CódigoConcesionAdministrativa">Código concesión administrativa</string>
+    <string name="Profundidadsondeo">Profundidad sondeo (m)</string>
+    <string name="Diámetrosonde">Diámetro sondeo (m)</string>
+    <string name="NivelPiezométrico">Nivel Piezométrico (m)</string>
+    <string name="TipoTarifaElectrica">Tipo de tarífa eléctrica</string>
+    <string name="PotenciaContratada">Potencia contratada (kW)</string>
+    <string name="Tipobomba">Tipo de bomba</string>
+    <string name="Caudalnominal">Caudal nominal (l/s)</string>
+    <string name="Variador">Variador</string>
+    <string name="Capacidad">Capacidad útil (m3)</string>
+    <string name="Estado">Estado</string>
+    <string name="Materiales">Materiales</string>
+    <string name="Función">Función</string>
+    <string name="Filtraciones">Filtraciones</string>
+    <string name="Problemas">Problemas de funcionamiento</string>
+    <string name="Ubicacion">Ubicación</string>
+    <string name="AñadirUbicacion">Obtener coordenadas</string>
+    <string name="Dimensiones">Dimensiones</string>
+    <string name="AlturaManométrica">Altura manométrica (mca)</string>
+    <string name="TipoCultivo">Tipo de cultivo</string>
+    <string name="Si">Sí</string>
+    <string name="No">No</string>
+    <string name="TipoConstru">Tipo de construcción</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="SistemaRiego">Sistema de riego</string>
+    <string name="Georreferenciar">Georreferenciar</string>
+    <string name="Instrucciones">La presente aplicación ha sido realizada por el estudiante de Ingeniería Geomática Manuel Miñambres Vidal con motivo de su proyecto de fin de carrera.\n\n
+INSTRUCCIONES \n\n
+- Deberá activar la ubicación de su dispositivo móvil \n\n
+- Seguidamente deberá rellenar sus datos personales accediendo al apartado Perfil \n\n
+- Una vez realizado lo anterior ya podrá comenzar a inventariar \n\n
+- En caso de inventariar elementos puntuales, bastará con añadir un único punto y seguidamente finalizar \n\n
+- En caso de inventariar un polígono, es recomendable añadir un punto en cada esquina, y en caso de existir curvaturas, debera añadir un punto cada dos pasos \n\n</string>
+
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">agroGDB</string>
+    <string name="botoon_perfil">PROFILE</string>
+    <string name="botoon_editar">EDIT</string>
+    <string name="botoon_nuevo">NEW</string>
+    <string name="botoon_inventariar">INVENTORY</string>
+    <string name="botoon_info">INSTRUCTIONS</string>
+    <string name="botoon_salir">EXIT</string>
+    <string name="botoon_parcela">Parcels</string>
+    <string name="botoon_pozo">Water well</string>
+    <string name="botoon_balsa">Raft</string>
+    <string name="botoon_cabezales">Heads</string>
+    <string name="botoon_impulsiones_y_bombeos">Pums</string>
+    <string name="botoon_otros">Others</string>
+    <string name="denominacion">Denomination</string>
+    <string name="direccion">Address</string>
+    <string name="telefono">Telefon</string>
+    <string name="NombreCompleto">Full Name</string>
+    <string name="Posicion">Position in the C.R</string>
+    <string name="Entidad_riego">Irrigation entity</string>
+    <string name="DatosPersonales">Personal Information</string>
+    <string name="Bienvenida">Welcome</string>
+    <string name="Terminar">FINISH</string>
+    <string name="Añadir">ADD</string>
+    <string name="Nombre">Nombre</string>
+    <string name="año">Year</string>
+    <string name="CódigoConcesionAdministrativa">Administrative concession code</string>
+    <string name="Profundidadsondeo">Probing depth (m)</string>
+    <string name="Diámetrosonde">Probing diamete (m)</string>
+    <string name="NivelPiezométrico">Piezometric level (m)</string>
+    <string name="TipoTarifaElectrica">Electric Rate Type</string>
+    <string name="PotenciaContratada">Hired potency (kW)</string>
+    <string name="Tipobomba">Pump type</string>
+    <string name="Caudalnominal">Nominal flow (l/s)</string>
+    <string name="Variador">Variator</string>
+    <string name="Capacidad">Useful capacity (m3)</string>
+    <string name="Estado">Estate</string>
+    <string name="Materiales">Materials</string>
+    <string name="Función">Function</string>
+    <string name="Filtraciones">Leaks</string>
+    <string name="Problemas">Operational problems</string>
+    <string name="Ubicacion">Location</string>
+    <string name="AñadirUbicacion">Get coordinates</string>
+    <string name="Dimensiones">Dimensions</string>
+    <string name="AlturaManométrica">Manometric height (mca)</string>
+    <string name="TipoCultivo">Type of crop</string>
+    <string name="Si">Yes</string>
+    <string name="No">No</string>
+    <string name="TipoConstru">Type of construction</string>
+    <string name="Descripcion">Description</string>
+    <string name="SistemaRiego">Irrigation system</string>
+    <string name="Georreferenciar">Georeference</string>
+    <string name="Instrucciones">This application has been made by the Geomatic Engineering student Manuel Miñambres Vidal on the occasion of his end-of-degree project. \n\n
+INSTRUCTIONS \n \n
+- You must activate the location of your mobile device \n\n
+- Then you must fill in your personal data by accessing the Profile section \n\n
+- Once this is done, you can start to inventory \n\n
+- In case of inventorying specific elements, it will be enough to add a single point and then finish \n\n
+- In the case of inventorying a polygon, it is recommended to add a point in each corner, and in the case of curvatures, you should add a point every two steps \n\n</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_transparencia"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/paddinginventariar">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/bParcelas"
+            style="@style/botones_inventario"
+            android:onClick="FichaParcela"
+            android:text="@string/botoon_parcela"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bPozo"
+            style="@style/botones_inventario"
+            android:onClick="FichaPozo"
+            android:text="@string/botoon_pozo"
+            android:textSize="20dp">></Button>
+
+        <Button
+            android:id="@+id/bBalsa"
+            style="@style/botones_inventario"
+            android:onClick="FichaBalsa"
+            android:text="@string/botoon_balsa"
+            android:textSize="20dp">></Button>
+
+        <Button
+            android:id="@+id/bCabezales"
+            style="@style/botones_inventario"
+            android:onClick="FichaCabezal"
+            android:text="@string/botoon_cabezales"
+            android:textSize="20dp">></Button>
+
+        <Button
+            android:id="@+id/bImpulsiones"
+            style="@style/botones_inventario"
+            android:onClick="FichaImpulsiones"
+            android:text="@string/botoon_impulsiones_y_bombeos"
+            android:textSize="20dp">></Button>
+
+        <Button
+            android:id="@+id/bOtros"
+            style="@style/botones_inventario"
+            android:onClick="FichaOtros"
+            android:text="@string/botoon_otros"
+            android:textSize="20dp">>
+        </Button>
+
+
+    </GridLayout>
+
+
+</LinearLayout>
