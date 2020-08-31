@@ -1,6 +1,8 @@
 package com.example.app_tfg;
 
 import android.os.StrictMode;
+import android.widget.Toast;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -19,6 +21,7 @@ public class conexionPSQL {
             conexion = DriverManager.getConnection("jdbc:postgresql://192.168.43.203:5432/agroGDB", "postgres", "postgres");
 
         }catch (Exception er){
+
             System.err.println("Error Conexion"+ er.toString());
         }
         return  conexion;

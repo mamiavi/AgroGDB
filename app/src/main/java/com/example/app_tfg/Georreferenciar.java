@@ -83,7 +83,7 @@ public class Georreferenciar extends AppCompatActivity {
         btnFinalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
+                //try {
                     if(extras.get("Feature").equals("Polygon")){
 
                         for(int i=0;i<listaLat.size();i++){
@@ -95,9 +95,9 @@ public class Georreferenciar extends AppCompatActivity {
                         coordenadas=coordenadas+","+listaLon.get(0)+" "+listaLat.get(0);
                     }
                     GuardarSalir();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+                //} catch (SQLException e) {
+                    //e.printStackTrace();
+                //}
 
                 Toast toast2 =
                         Toast.makeText(getApplicationContext(),
@@ -157,12 +157,14 @@ public class Georreferenciar extends AppCompatActivity {
         }
     }
 
-    public void GuardarSalir() throws SQLException {
+    public void GuardarSalir(){
         Bundle extras=getIntent().getExtras();
         Integer tlfpersonal=va.get_tlfpersonal();
         String denominacion=va.getDenominacion();
         System.out.println(va.get_tlfpersonal()+va.getDenominacion());
+        try{
         Connection connection=con.conexionBD();
+
 
 
         switch (extras.get("tabla").toString()) {
@@ -176,7 +178,12 @@ public class Georreferenciar extends AppCompatActivity {
                 Boolean filtracioes=extras.getBoolean("balsa_filtraciones");
                 String funcion=extras.getString("balsa_funcion");
 
-                connection.prepareStatement("insert into public.\"BALSAS\"(\"Nombre\",\"Year\",\"Capacidad\",\"Estado\",\"Materiales\",\"Filtraciones\",\"Problemas Funcionamiento\",\"EERR\",\"num_telf\",\"Funcion\",\"geom\") VALUES (\'"+balsa_nombre+"\',"+balsa_year+","+capacidad+",\'"+estado+"\',\'"+materiales+"\',"+filtracioes+",\'"+problemas+"\',\'"+denominacion+"\',"+tlfpersonal+",\'"+funcion+"\', st_geomfromtext('polygon (("+coordenadas+"))',4326)"+")").executeUpdate();
+                connection.prepareStatement("insert into public.\"BALSAS\"(\"Nombre\",\"Year\",\"Capacidad\"," +
+                        "\"Estado\",\"Materiales\",\"Filtraciones\"," +
+                        "\"Problemas Funcionamiento\",\"EERR\",\"num_telf\",\"Funcion\",\"geom\") " +
+                        "VALUES (\'"+balsa_nombre+"\',"+balsa_year+","+capacidad+",\'"+estado+"\'," +
+                        "\'"+materiales+"\',"+filtracioes+",\'"+problemas+"\',\'"+denominacion+"\',"+tlfpersonal+",\'"+funcion+"\'," +
+                        " st_geomfromtext('polygon (("+coordenadas+"))',4326)"+")").executeUpdate();
                 break;
 
 
@@ -235,6 +242,13 @@ public class Georreferenciar extends AppCompatActivity {
                 break;
 
 
+        }
+        }catch (Exception er){
+            Toast toast =
+                    Toast.makeText(getApplicationContext(),
+                            "Error en la conexión", Toast.LENGTH_SHORT);
+
+            toast.show();
         }
 
 
